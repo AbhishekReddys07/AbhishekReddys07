@@ -46,8 +46,8 @@ def start_server():
 def find_string():
     global count
     print("inside find string")
-    search_string = b"kong.automation.client - No drives available for any tests. Kong is going to idle."
-    file_name = "C:/Users/7348913/Desktop/DB/abhi/checking/text.docx"
+    search_string = b".........Not Available for any tests........"
+    file_name = "C:Desktop/user/file.tlog"
     try:
         with open(file_name, 'rb') as file:
             content = file.read()
